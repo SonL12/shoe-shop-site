@@ -1,0 +1,18 @@
+.LoaderHome {
+    background-color:var(--secondary-color);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+.containerLoaderHome{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    font-size: 2rem;
+    color: var(--text-color);
+}

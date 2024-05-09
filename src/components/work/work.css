@@ -1,0 +1,166 @@
+#working{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem 2rem 2rem 4rem;
+
+}
+
+.workDesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+
+.workTypo{
+    font-size: 4rem;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    opacity: 25%;
+    pointer-events: none;
+}
+
+.workContainerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    transform: translateY(-1.5rem);
+}
+
+
+.workMain{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.workText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.workTitle {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8rem;
+}
+
+.workNumber,.workTitle span:nth-child(1){
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.workTitle span:nth-child(2){
+    font-size: 0.7rem;
+}
+
+.workImage{
+    align-items: start;
+    width: 650px;
+    height: 450px;
+}
+.workLink{
+    height: 50vh;
+    align-items: end;
+    display: flex;
+    font-size: 0.8rem;
+    width: 30%;
+    justify-content: center;
+
+}
+.workLinked{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    transition: all 0.3s ;
+    padding: 0 0.3rem;
+
+    
+}
+.workLinked:hover{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+/* breakpoints */
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+    #working{
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 2rem 0rem;
+    }
+    .workContainerMain{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .workMain{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        justify-content: center;
+        line-height: 5rem;    
+    }
+    
+    .workDesign{
+        position: absolute;
+    }
+    .workImage{
+        align-items: start;
+        width: 350px;
+        height: 250px;
+        display: flex;
+        top: 5rem;
+    }
+    .workLink{
+        height: 50vh;
+        align-items: end;
+        display: flex;
+        font-size: 0.8rem;
+        width: 30%;
+        justify-content: end;
+        position: absolute;
+        width: 70%;
+        padding: 0 2rem 0 0;
+        height: 40vh;
+        right: 0;
+    }
+    .workLinked{
+        width: 100%;
+        bottom: 2rem;
+
+    }
+    .workText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .workNumber{
+        position: absolute;
+        bottom: 10rem;
+        left: 1rem;
+    }
+    .workTitle {
+        position: fixed;
+        bottom: 11.5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+}
