@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import profilePitcure from "../../assets/IMG-20210522-WA0012_1621689773774.jpg"
+import profilePitcure from "../../assets/Pin by Yeimicorona on Ropa _ Trendy shoes….jpeg"
 import "./hero.css"
 
 
@@ -25,7 +25,7 @@ const Hero = () => {
   style={{x:kanan}}
     className='textberisi'
     >
-      software engineer
+      ShoeshoeShoeshoe
     </motion.h1>
     <motion.h1
     initial = {{x:-1800}}
@@ -39,7 +39,7 @@ const Hero = () => {
   style={{x:kanan}}
     className='textkosong'
     >
-      software engineer
+      ShoeshoeShoeshoe
     </motion.h1>
       </div>
       <div className="secondText">
@@ -55,7 +55,7 @@ const Hero = () => {
   style={{x:kiri}}
     className='textberisi'
     >
-      newbie javascript tech stack developer
+      Air Jordan 1 mid
       </motion.h1>
     <motion.h1
     initial = {{x:1800}}
@@ -69,7 +69,7 @@ const Hero = () => {
   style={{x:kiri}}
     className='textkosong'
     >
-      newbie javascript tech stack developer
+      air Jordan 1 mid
     </motion.h1>
     </div>
       <div className="heroImage">
