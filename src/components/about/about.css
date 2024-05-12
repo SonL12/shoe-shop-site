@@ -34,3 +34,9 @@
 .aboutInfo{
     color: antiquewhite;
 }
+.aboutParagraph{
+    text-align: justify;
+    color:antiquewhite;
+    font-size: 12px;
+    line-height: 1.5;
+}

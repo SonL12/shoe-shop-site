@@ -38,7 +38,7 @@
     color: var(--text-color);
 }
 .footerText img{
-    width: 100px;
+    width: 125px;
     height: 100px;
     border-radius: 50%;
 }
@@ -67,6 +67,9 @@
         align-items: center;
         flex-direction: column;
         gap: 1rem;
+    }
+    .footerText{
+        padding-right: 40px;
     }
 }
 @media screen and (max-width: 350px) {

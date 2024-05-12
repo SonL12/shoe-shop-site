@@ -32,16 +32,16 @@ const Jasa = () => {
         </div>
         <div className="serviceStack">
             <div className="serviceTechStack">
-                <span>Photoshop</span>
-                <span>Html</span>
-                <span>Css</span>
-                <span>React-js</span>
+                <span>Aurel</span>
+                <span>Bagas</span>
+                <span>Barriq</span>
+                <span>Fadilah</span>
             </div>
             <div className="serviceTechStack">
-                <span>dah</span>
-                <span>itu</span>
-                <span>aja</span>
-                <span></span>
+                <span>Gustin</span>
+                <span>Lekha</span>
+                <span>Selsa</span>
+                <span>Naufal F.</span>
             </div>
         </div>
     </section>

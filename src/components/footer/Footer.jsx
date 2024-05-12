@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Picture from "../../assets/download (8).png"
+import Picture from "../../assets/NIKE Inc PNG Logo Files/006_nike-logos-jordan-white.png"
 import "./Footer.css"
 
 const footer = () => {
@@ -8,7 +8,7 @@ const footer = () => {
     <section id='footer'>
         <div className="footerText">
             <img src={Picture} alt="" />
-            <span>Kontak sekarang!!!</span>
+            <span>Contact Us</span>
         </div>
         <div className="footerLink">
             <a href="#">Email</a>
