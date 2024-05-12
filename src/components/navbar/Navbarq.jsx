@@ -1,13 +1,10 @@
 import {useState} from 'react'
 import "./navbar.css"
+import UilReact from '@iconscout/react-unicons/icons/uil-react'
 
 const Navbarq = () => {
   const [icon, setIcon] = useState("#Home")
   return <nav>
-          <div className="navName">
-        <span>hi,my name is</span>
-        <span>Barriq Kaykaus Mujau</span>
-      </div>
     <div className="containernav">
       <div className="navMenuRight">
         <a href="#Home" onClick ={() => setIcon("#Home")}className={icon === "#Home" ? "iconActive": ""}>

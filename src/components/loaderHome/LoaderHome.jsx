@@ -24,56 +24,39 @@ const LoaderHome = () => {
                 display:"none"
             },
         }}
-        className="LoaderText">Assalamualaikum</motion.span>
+        className="LoaderText">Welcome!</motion.span>
         <motion.span 
         initial ={{opacity: 0}}
         animate={{
             opacity: 1,
-            transition: {delay:0.8},
+            transition: {delay:1.0},
             transitionEnd: {
                 display:"none"
             },
         }}
-        className="LoaderText">Wetshup</motion.span>
+        className="LoaderText">Happy Shopping</motion.span>
         <motion.span 
         initial ={{opacity: 0}}
         animate={{
             opacity: 1,
-            transition: {delay:1.1},
+            transition: {delay:1.5},
             transitionEnd: {
                 display:"none"
             },
         }}
-        className="LoaderText">Halo</motion.span>
-        <motion.span 
-        initial ={{opacity: 0}}
-        animate={{
-            opacity: 1,
-            transition: {delay:1.4},
-            transitionEnd: {
-                display:"none"
-            },
-        }}
-        className="LoaderText">مرحبًا</motion.span>
-        <motion.span 
-        initial ={{opacity: 0}}
-        animate={{
-            opacity: 1,
-            transition: {delay:1.7},
-            transitionEnd: {
-                display:"none"
-            },
-        }}
-        className="LoaderText">안녕하세요</motion.span>
+        className="LoaderText">at</motion.span>
         <motion.span 
         initial ={{opacity: 0}}
         animate={{
             opacity: 1,
             transition: {delay:2.0},
+            transitionEnd: {
+                display:"none"
+            },
         }}
-        className="LoaderText">Urraaaaaaahhhhh</motion.span>
+        className="LoaderText"><i>shoeshoeshoe</i></motion.span>
     </div>
-  </motion.section>
+</motion.section>
 }
 
 export default LoaderHome

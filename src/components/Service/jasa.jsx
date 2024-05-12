@@ -13,21 +13,26 @@ const Jasa = () => {
     <section id='service' >
         <div className="serviceTypo">
             <motion.span style={{x:Depanakhir}}>
-            Frontend<span className='OutlineTypo'>Developer</span>-Frontend{""}
-            <span className='OutlineTypo'>Developer</span>-Frontend{""}
-            <span className='OutlineTypo'>Developer</span>- {""}
+            shoeshoe<span className='OutlineTypo'>shoe</span>-shoe{""}
+            <span className='OutlineTypo'>shoeshoe</span>-shoe{""}
+            <span className='OutlineTypo'>shoeshoe</span>-shoe{""}
+            <span className='OutlineTypo'>shoeshoe</span>-shoe{""}
+            <span className='OutlineTypo'>shoeshoe</span>- {""}
             </motion.span>
 
             <motion.span style={{x: Belakangakhir}}>
-            BackEnd<span className='OutlineTypo'>Developer</span>-Backend {""}
-            <span className='OutlineTypo'>Developer</span>-Backend {""}
-            <span className='OutlineTypo'>Developer</span>-{""}
+            air <span className='OutlineTypo'>jordan</span>-air {""}
+            <span className='OutlineTypo'>jordan</span>-air {""}
+            <span className='OutlineTypo'>jordan</span>-air {""}
+            <span className='OutlineTypo'>jordan</span>-air {""}
+            <span className='OutlineTypo'>jordan</span>-{""}
             </motion.span>
 
             <motion.span style={{x:Akhir}}>
-            <span className='outlineTypo'>FullStack</span>Developer -{""}
-            <span className='outlineTypo'>FullStack</span>Developer -{""}
-            <span className='outlineTypo'>FullStack</span>Developer - {""}
+            <span className='outlineTypo'>meet </span>our team - {""}
+            <span className='outlineTypo'>meet </span>our team - {""}
+            <span className='outlineTypo'>meet </span>our team - {""}
+            <span className='outlineTypo'>meet </span>our team - {""}
             </motion.span>
         </div>
         <div className="serviceStack">

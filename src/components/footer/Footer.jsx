@@ -11,14 +11,14 @@ const footer = () => {
             <span>Contact Us</span>
         </div>
         <div className="footerLink">
-            <a href="#">Email</a>
-            <a href="#">Whatsapp</a>
+            <a href="https://nike.com/help">Get Help</a>
+            <a href="https://nike.com" target='_blank'>Website</a>
         </div>
         <div className="footerSosmed">
-            <a href="https://www.instagram.com/barriqkyksm/">instagram</a>
-            <a href="https://youtube.com/@Berzme">Youtube</a>
-            <a href="#">TikTok</a>
-            <a href="#">Facebook</a>
+            <a href="https://instagram.com/nike/" target='_blank'>Instagram</a>
+            <a href="https://youtube.com/@nike" target='_blank'>Youtube</a>
+            <a href="https://tiktok.com/@nike" target='_blank'>TikTok</a>
+            <a href="https://facebook.com/nike" target='_blank'>Facebook</a>
         </div>
     </section>
   )
