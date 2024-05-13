@@ -153,6 +153,7 @@
         height: 50vh;
         align-items: end;
         display: flex;
+        font-style: normal;
         font-size: 0.8rem;
         width: 30%;
         justify-content: end;
