@@ -11,7 +11,7 @@ const worked = () => {
           <span>shoe</span>
           <span>shoe</span>
         </div>
-        <span className='workOpening'>Store</span>
+        <span className='workOpening'>S T O R E</span>
       </div>
       <div className="workContainerMain">
       <div className="workMain">
