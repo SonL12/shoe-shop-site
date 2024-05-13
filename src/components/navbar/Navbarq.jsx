@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import "./navbar.css"
-import UilReact from '@iconscout/react-unicons/icons/uil-react'
+// import UilReact from '@iconscout/react-unicons/icons/uil-react'
 
 const Navbarq = () => {
   const [icon, setIcon] = useState("#Home")
