@@ -18,7 +18,7 @@ const worked = () => {
         <img className='workImage' src={Picture} alt="" />
       </div>
       <div className="workLink">
-        <a className='workLinked' href="https://maps.app.goo.gl/iwnybzvaLurrRKby5?g_st=iw" target="_blank">
+        <a className='workLinked' href="https://maps.app.goo.gl/iwnybzvaLurrRKby5?g_st=iw" target='_blank'>
         <i class="uil uil-arrow-up-left"></i>
         <span>Norrmalm, Stockholm, Swedia</span>
         </a>
