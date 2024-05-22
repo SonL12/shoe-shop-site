@@ -9,29 +9,29 @@ const Navbarq = () => {
       <div className="navMenuRight">
         <a href="#Home" onClick ={() => setIcon("#Home")}className={icon === "#Home" ? "iconActive": ""}>
         {/* <i class="uil uil-airplay iconNavbar"></i> */}
-        <Unicons.UilAirplay />
+        <Unicons.UilAirplay className="iconNavbar"/>
         <span className='textNavbar'>Home</span>
         </a>
         <a href="#about"onClick ={() => setIcon("#about")}className={icon === "#about" ? "iconActive": ""}>
         {/* <i class="uil uil-user iconNavbar"></i> */}
-        <Unicons.UilUser />
+        <Unicons.UilUser className="iconNavbar"/>
         <span className='textNavbar'>About</span>
         </a>
         <a href="#working"onClick ={() => setIcon("#working")}className={icon === "#working" ? "iconActive": ""}>
         {/* <i class="uil uil-book iconNavbar"></i> */}
-        <Unicons.UilBook />
+        <Unicons.UilBook className="iconNavbar"/>
         <span className='textNavbar'>Work</span>
         </a> 
       </div>
       <div className="navMenuBottom">
         <a href="#service"onClick ={() => setIcon("#service")}className={icon === "#service" ? "iconActive": ""}>
           {/* <i class="uil uil-setting iconNavbar"></i> */}
-          <Unicons.UilSetting />
+          <Unicons.UilSetting className="iconNavbar"/>
           <span className='textNavbar'>Service</span> 
         </a>
         <a href="#footer"onClick ={() => setIcon("#footer")}className={icon === "#footer" ? "iconActive": ""}>
         {/* <i class="uil uil-message iconNavbar"></i> */}
-        <Unicons.UilMessage />
+        <Unicons.UilMessage className="iconNavbar"/>
         <span className='textNavbar'>Contact</span> 
         </a>
       </div>
