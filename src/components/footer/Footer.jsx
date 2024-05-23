@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 // import { useNavigate } from 'react-router-dom'
-import Picture from "../../assets/NIKE Inc PNG Logo Files/006_nike-logos-jordan-white.png"
+import Picture from "../../assets/logo/logo-shoe.jfif"
 import "./Footer.css"
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
     <section id='footer'>
         <div className="footerText">
             <img src={Picture} alt="" />
-            <a href="/payment">Payment</a>
+            <a href="/payment"><u>Payment</u></a>
             {/* <button onClick={() => navigate('/payment')}>Payment</button> */}
         </div>
         <div className="footerLink">

@@ -9,7 +9,10 @@ import Bni from '../../assets/payment/bni.png'
 import Bri from '../../assets/payment/bri.png'
 import Mandiri from '../../assets/payment/mandiri.avif'
 import Bsi from '../../assets/payment/bsi.png'
+import Arrow from '../../assets/icon/right-arrow.svg'
 import './payment.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const images = [
     { src: Bca, link: 'https://www.klikbca.com/' },
@@ -28,8 +31,17 @@ const images2 = [
 ];
 
 const Payment = () => {
+    const navigate = useNavigate();
+
+    const navigateHome = () => {
+        navigate('/home');
+    };
+
     return(
         <section className='payment'>
+            <div className='home-icon' onClick={navigateHome}>
+                <img src={Arrow} alt='Home Icon' />
+            </div>
             <div className='container-payment'>
                 <h3 id='payment-h3'>Payment</h3>
                 <div className='img-payment'>

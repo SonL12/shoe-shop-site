@@ -1,0 +1,141 @@
+.about-us{
+    background-color:var(--primary-color);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.us{
+    font-size: 48px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.container-team, .container-shop{
+    margin-top: 30px;
+    flex: 1;
+}
+
+.container-team{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container-shop {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-list{
+    margin-top: 30px;
+}
+
+.header-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.header-wrapper h2 {
+    margin: 0;
+}
+
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: black;
+}
+
+.team-member p {
+    margin: 0;
+    color: #666;
+}
+
+.shoe img {
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-divider{
+    width: 50%;
+    margin: 10px auto;
+    border: 0;
+    border-top: 2px solid white;
+}
+
+.about-history {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.history-text {
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 100px;
+}
+
+.home-button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.arrow{
+    width: 50px !important;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    position: absolute;
+    top: 540px;
+    right: 380px;
+}

@@ -36,26 +36,27 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    color: white;
 }
 .serviceTechStack {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
-.serviceTechStack span{
+.serviceTechStack a{
     text-align: center;
     border: 1.5px solid var(--text-color);
     padding: 0 0.9rem;
+    color: var(--text-color);
     border-radius: 25px;
     transition: all 0.3s;
 }
-.serviceTechStack span:hover {
+.serviceTechStack a:hover {
     border: 1px solid var(--text-color);
     padding: 0 0.9rem;
     border-radius: 25px;
     color: var(--primary-color);
     background-color: var(--text-color);
-
 }
 
 

@@ -37,16 +37,16 @@ const Jasa = () => {
         </div>
         <div className="serviceStack">
             <div className="serviceTechStack">
-                <span><a href="https://www.nike.com/id/t/air-jordan-1-retro-high-og-shoes-Pz6fZ9" target="_blank" rel="noopener noreferrer">Air Jordan 1 Retro High OG</a></span>
-                <span><a href="https://www.nike.com/id/t/air-jordan-legacy-312-low-shoes-tNzTNk/FQ7827-100" target="_blank" rel="noopener noreferrer">Air Jordan Legacy 312 Low</a></span>
-                <span><a href="https://www.nike.com/id/t/air-jordan-1-low-shoes-nGLZR9/AO9944-441" target="_blank" rel="noopener noreferrer">Air Jordan 1 Low</a></span>
-                <span><a href="https://www.nike.com/id/t/air-jordan-9-g-golf-shoes-nNqtwL/FN6930-001" target="_blank" rel="noopener noreferrer">Air Jordan 9 G</a></span>
+                <a href="https://www.nike.com/id/t/air-jordan-1-retro-high-og-shoes-Pz6fZ9" target="_blank" rel="noopener noreferrer">Air Jordan 1 Retro High OG</a>
+                <a href="https://www.nike.com/id/t/air-jordan-legacy-312-low-shoes-tNzTNk/FQ7827-100" target="_blank" rel="noopener noreferrer">Air Jordan Legacy 312 Low</a>
+                <a href="https://www.nike.com/id/t/air-jordan-1-low-shoes-nGLZR9/AO9944-441" target="_blank" rel="noopener noreferrer">Air Jordan 1 Low</a>
+                <a href="https://www.nike.com/id/t/air-jordan-9-g-golf-shoes-nNqtwL/FN6930-001" target="_blank" rel="noopener noreferrer">Air Jordan 9 G</a>
             </div>
             <div className="serviceTechStack">
-                <span><a href="https://www.nike.com/id/t/air-jordan-1-mid-se-shoes-JFn5S2/FQ1926-161" target="_blank" rel="noopener noreferrer">Air Jordan 1 Mid SE</a></span>
-                <span><a href="https://www.nike.com/id/t/air-jordan-4-retro-white-gold-shoes-VrTVTm/AQ9129-170" target="_blank" rel="noopener noreferrer">Air Jordan 4 Retro 'White & Gold'</a></span>
-                <span><a href="https://www.nike.com/id/t/jordan-day1-eo-older-shoes-cPx7rj/FQ1306-006" target="_blank" rel="noopener noreferrer">Jordan DAY1 EO</a></span>
-                <span><a href="https://www.nike.com/id/t/air-jordan-1-low-se-craft-shoes-8SsDw6/FQ3055-100" target="_blank" rel="noopener noreferrer">Air Jordan 1 Low SE Craft</a></span>
+                <a href="https://www.nike.com/id/t/air-jordan-1-mid-se-shoes-JFn5S2/FQ1926-161" target="_blank" rel="noopener noreferrer">Air Jordan 1 Mid SE</a>
+                <a href="https://www.nike.com/id/t/air-jordan-4-retro-white-gold-shoes-VrTVTm/AQ9129-170" target="_blank" rel="noopener noreferrer">Air Jordan 4 Retro 'White & Gold'</a>
+                <a href="https://www.nike.com/id/t/jordan-day1-eo-older-shoes-cPx7rj/FQ1306-006" target="_blank" rel="noopener noreferrer">Jordan DAY1 EO</a>
+                <a href="https://www.nike.com/id/t/air-jordan-1-low-se-craft-shoes-8SsDw6/FQ3055-100" target="_blank" rel="noopener noreferrer">Air Jordan 1 Low SE Craft</a>
             </div>
         </div>
     </section>

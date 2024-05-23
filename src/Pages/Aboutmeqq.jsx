@@ -1,8 +1,13 @@
 import React from 'react'
+import AboutUs from '../components/about-us/AboutUs'
+import LoaderHome from '../components/loaderHome/LoaderHome'
 
 const Aboutmeqq = () => {
   return (
-    <div>aboutme</div>
+    <div>
+      <LoaderHome/>
+      <AboutUs/>
+    </div>
   )
 }
 
